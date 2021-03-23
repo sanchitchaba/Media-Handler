@@ -1,0 +1,12 @@
+{
+    "manifest_version":2,
+    "name":"Media Handler",
+    "description": "Restrict the time spent on social media sites",
+    "version":"1.0.0",
+    "icons": {"128":"icon_128.png"},
+    "browser_action":{
+        "default_icon":"icon_19.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":["activeTab"]
+}
